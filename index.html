@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winc Filmzoeker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="data_movies.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2>Welkome bij de Winc Filmzoeker</h2>
+    </header>
+    <nav class="navigation">
+      <input type="text" id="search_area" value="Search" />
+      <input type="radio" id="nieuwste_film" name="filter" value="nieuwste" />
+      <label for="nieuwste">Laatste Films 2014 of nieuwer</label>
+      <input type="radio" id="avengers_film" name="filter" value="avengers" />
+      <label for="avengers">Avengers Films</label>
+      <input type="radio" id="xmen_film" name="filter" value="xmen" />
+      <label for="xmen">X-MEN Films</label>
+      <input type="radio" id="princess_film" name="filter" value="princess" />
+      <label for="princess">Princess Films</label>
+      <input type="radio" id="batman_film" name="filter" value="batman" />
+      <label for="batman">Batman Films</label>
+    </nav>
+    <main>
+      <div>
+        <ul id="winc-movielist"></ul>
+      </div>
+    </main>
+    <footer>
+      <p class="footer">
+        <span class="name">Baig </span>© winc_filmzoeker@gmail.com
+      </p>
+    </footer>
+  </body>
+</html>
